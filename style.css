@@ -609,6 +609,52 @@ section { padding: 100px 0; }
   box-shadow: 0 24px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(124,58,237,0.1);
 }
 
+.project-card--green .project-card-accent {
+  background: linear-gradient(90deg, #f59e0b, transparent);
+}
+.project-card--green:hover {
+  border-color: rgba(245,158,11,0.3);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(245,158,11,0.1);
+}
+.project-card--green .metric-val { color: #fbbf24; }
+.project-card--green .project-highlights li::before { color: #fbbf24; }
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-demo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  color: #000;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all var(--transition);
+}
+.project-demo-btn:hover {
+  background: transparent;
+  color: var(--accent);
+}
+.project-card--green .project-demo-btn {
+  background: #f59e0b;
+  border-color: #f59e0b;
+  color: #000;
+}
+.project-card--green .project-demo-btn:hover {
+  background: transparent;
+  color: #f59e0b;
+}
+
 .project-header {
   display: flex;
   align-items: flex-start;
