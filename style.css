@@ -628,31 +628,30 @@ display: flex;
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 28px;
-  background: #f5c800;
-  border: 2.5px solid #000;
+  padding: 10px 22px;
+  background: var(--accent);
+  border: 2px solid var(--accent);
   border-radius: 100px;
   color: #000;
   text-decoration: none;
-  font-size: 0.88rem;
-  font-weight: 700;
+  font-size: 0.82rem;
+  font-weight: 600;
   white-space: nowrap;
   flex-shrink: 0;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
   transition: all var(--transition);
 }
 .project-demo-btn:hover {
-  background: #ffd700;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
-  transform: translateY(-2px);
+  background: transparent;
+  color: var(--accent);
 }
 .project-card--green .project-demo-btn {
-  background: #f5c800;
-  border-color: #000;
+  background: var(--accent);
+  border-color: var(--accent);
   color: #000;
 }
 .project-card--green .project-demo-btn:hover {
-  background: #ffd700;
+  background: transparent;
+  color: var(--accent);
 }
 
 .project-header {
