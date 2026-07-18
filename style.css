@@ -630,7 +630,7 @@ display: flex;
   gap: 8px;
   padding: 12px 28px;
   background: #f5c800;
-  border: 2.5px solid #4caf50;
+  border: 2.5px solid #000;
   border-radius: 100px;
   color: #000;
   text-decoration: none;
@@ -644,11 +644,11 @@ display: flex;
 .project-demo-btn:hover {
   background: #ffd700;
   box-shadow: 0 6px 20px rgba(0,0,0,0.35);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 .project-card--green .project-demo-btn {
   background: #f5c800;
-  border-color: #4caf50;
+  border-color: #000;
   color: #000;
 }
 .project-card--green .project-demo-btn:hover {
