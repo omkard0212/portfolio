@@ -628,30 +628,31 @@ display: flex;
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 22px;
-  background: #f59e0b;
-  border: 2px solid #f59e0b;
+  padding: 12px 28px;
+  background: #f5c800;
+  border: 2.5px solid #4caf50;
   border-radius: 100px;
   color: #000;
   text-decoration: none;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 700;
   white-space: nowrap;
   flex-shrink: 0;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
   transition: all var(--transition);
 }
 .project-demo-btn:hover {
-  background: transparent;
-  color: #f59e0b;
+  background: #ffd700;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  transform: translateY(-1px);
 }
 .project-card--green .project-demo-btn {
-  background: #f59e0b;
-  border-color: #f59e0b;
+  background: #f5c800;
+  border-color: #4caf50;
   color: #000;
 }
 .project-card--green .project-demo-btn:hover {
-  background: transparent;
-  color: #f59e0b;
+  background: #ffd700;
 }
 
 .project-header {
